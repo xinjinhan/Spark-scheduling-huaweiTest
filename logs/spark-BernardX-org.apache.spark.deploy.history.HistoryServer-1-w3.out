@@ -1,0 +1,2 @@
+Spark Command: /home/BernardX/Toolkits/jdk8u191-b12/bin/java -cp /home/BernardX/stageScheduler/spark-SchedulingTest/conf/:/home/BernardX/stageScheduler/spark-SchedulingTest/assembly/target/scala-2.12/jars/*:/home/BernardX/HadoopEnv/hadoop-2.7.4/etc/hadoop/ -Xmx1g org.apache.spark.deploy.history.HistoryServer
+========================================

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete file="/home/BernardX/stageScheduler/spark-SchedulingTest/assembly/../python/lib/pyspark.zip"/>
+  <zip destfile="/home/BernardX/stageScheduler/spark-SchedulingTest/assembly/../python/lib/pyspark.zip">
+    <fileset includes="pyspark/**/*" dir="/home/BernardX/stageScheduler/spark-SchedulingTest/assembly/../python/"/>
+  </zip>
+</target>
+</project>
